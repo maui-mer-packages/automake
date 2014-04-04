@@ -78,9 +78,10 @@ rm -f $RPM_BUILD_ROOT%{_infodir}/dir
 # >> files
 %doc AUTHORS README THANKS NEWS
 %{_bindir}/*
-%doc %{_infodir}/automake.info*.gz
+%doc %{_infodir}/automake*.info*.gz
 %{_datadir}/automake-*
 %{_datadir}/aclocal-*
 %doc %{_mandir}/man1/*
 %dir %{_datadir}/aclocal
+%doc %{_datadir}/aclocal/README
 # << files
